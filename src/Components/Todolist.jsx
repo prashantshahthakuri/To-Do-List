@@ -3,7 +3,7 @@ import '../index.css'
 
 
 function TodoList() {
-  const [task, setTask] = useState(["Eat Breakfast", "Have a Coding Practice", "Learn different new things"]);
+  const [task, setTask] = useState([]);
   const [newTask, setNewTask] = useState("");
 
   const handleInputChange = (e) =>{

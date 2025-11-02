@@ -23,11 +23,11 @@ function TodoList() {
 
   return (
     <div className="to-do-list">
-      <h1>To-Do-List</h1>
+      <h1>To-Do List</h1>
       <div>
         <input 
             type="text" 
-            placeholder="Add a New Task" 
+            placeholder="Add a New Task.." 
             value={newTask}
             onChange={handleInputChange} />
         <button className="add-btn" onClick={addTask}>Add</button>

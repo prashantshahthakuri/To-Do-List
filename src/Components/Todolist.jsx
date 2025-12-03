@@ -27,7 +27,7 @@ function TodoList() {
       <div>
         <input 
             type="text" 
-            placeholder="Add a New Task.." 
+            placeholder="Add a New Task Here.." 
             value={newTask}
             onChange={handleInputChange} />
         <button className="add-btn" onClick={addTask}>Add</button>

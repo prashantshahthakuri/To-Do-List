@@ -8,7 +8,7 @@ body{
 }
 h1{
     font-size: 4rem;
-    color: rgb(173, 166, 166);
+    color: aqua;
 }
 button{
     font-size: 1rem;
@@ -17,6 +17,7 @@ button{
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 5px;
     transition: background-color 0.5s ease;
 }
 .add-btn{
@@ -29,13 +30,13 @@ button{
     background-color: red;
 }
 .delete-btn:hover{
-    background-color: green;
+    background-color: green; 
 }
 input[type="text"]{
     font-size: 1.6rem;
     padding: 10px;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     color: hsl(0, 0%, 0%,0.5);
 }
 ol{
